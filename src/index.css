@@ -1,0 +1,159 @@
+/* ********* POKEMON DETAILS **********/
+.pokemon-details-container {
+  max-width: 1000px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.detail-container,
+.movement-container {
+  margin: 50px auto;
+  padding: 50px;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.movements-chips {
+  background-color: #e5e5e5;
+  padding: 10px 12px;
+  margin: 7px;
+  border-radius: 50px;
+  line-height: 3.5;
+}
+
+.character-image-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.character-image-container{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 5px;
+}
+
+.character-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.cha-img-container-bg {
+  width: 100%;
+  height: 185px;
+  margin: 0;
+  background: linear-gradient(
+    178.92deg,
+    #7ec6c5 0.92%,
+    #abdac6 47.96%,
+    #cae099 99.08%
+  );
+}
+
+.character-name {
+  margin-top: 10px;
+  font-size: 45px;
+  font-weight: 500;
+  border-top: 1px solid #e5e5e5;
+}
+
+.character-name::first-letter {
+  text-transform: capitalize;
+}
+
+.char-weight-height-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.character-weight,
+.character-height {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 20px;
+}
+
+.character-weight-data,
+.character-height-data {
+  font-size: 25px;
+  font-weight: 500;
+  padding: 0 35px;
+  text-align: center;
+  margin: 0;
+}
+
+.character-order {
+  width: 90px;
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 40px;
+  font-weight: 500;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+  color: #416460;
+}
+
+.character-type-skills-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.character-type-container h4, .character-skills-container h4{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.character-type-container span{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 5px 15px;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+.character-skills-container span{
+    border: 1px solid #d3d3d3;
+    padding: 5px 15px;
+    margin: 10px;
+    border-radius: 2px;
+    color: #302F2F;
+}
+
+.pokemon-details-stats h2{
+    margin-top: 100px;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+/****** PAGINATION ************/
+.page-container{
+  margin: 50px auto;
+  width: 70%;
+}
+
+.page-item{
+  padding: 10px 20px;
+  color: #212121;
+  font-size: 32px;
+  font-weight: 400;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.page-active, .page-item:hover{
+  background-color: red;
+  color: aliceblue;
+}
+
+
+
+
+
